@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>구현-더조은펜션</title>
+		<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<style type="text/css">
+			/*body{background:url(../../bg_grid.gif); opacity:0.8; z-index:9999;}*/
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/pension.css">
+		<script type="text/javascript" src="js/pension.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header>
+			<div class="popup">
+				<img src="images/popup.jpg" alt="겨울 이벤트 팝업">
+				<a href="#">X</a>
+			</div>
+			
+			<div id="slider">
+				<img class="slide" src="images/main1.png" alt="이미지 슬라이드1">
+				<img class="slide" src="images/main2.png" alt="이미지 슬라이드2">
+				<img class="slide" src="images/main3.png" alt="이미지 슬라이드3">
+				</div>
+				
+				<div class="top">
+					<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="로고 이미지"></a></h1>
+
+					<ul class="gnb">
+						<li><a href="#">예약하기</a></li>
+						
+						<li class="sub">
+							<a href="#">객실소개</a>
+							<ul>
+								<li class="one"><a href="#">1호실</a></li>
+								<li class="two"><a href="#">2호실</a></li>
+								<li class="three"><a href="#">3호실</a></li>
+								<li class="four"><a href="#">4호실</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="#">서비스안내</a></li>
+						<li><a href="#">주변여행지</a></li>
+						<li><a href="#">오시는길</a></li>
+						<li class="last"><a href="#">문의사항</a></li>
+					</ul>
+				</div><!--top-->
+				
+				<ul class="check">
+					<li><span>체크인 : </span>
+					<input type="date" name="from" min="2021-02-26" max="2021-05-25"></li>
+					<li><span>체크아웃 : </span>
+					<input type="date" name="to" min="2021-02-27" max="2021-05-26"></li>
+					<li class="last"><a href="#">예약하기</a></li>
+				</ul>
+			</header>
+			
+			<section id="sideBar">
+				<p><a href="#"><img src="images/quick1.png" alt="예약 아이콘"><br><span>예약</span></a></p>
+				<p><a href="#"><img src="images/quick2.png" alt="문의 아이콘"><br><span>문의</span></a></p>
+			</section>
+			
+			<section id="content1">
+				<div class="notice">
+					<h2>Notice</h2>
+					<p>공지사항</p>
+					<p class="more"><a href="#">more+</a></p>
+					
+					<ul class="text">
+						<li class="frist"><a href="#">공지사항 입니다.</a></li>
+						<li><a href="#">공지사항 입니다.</a></li>
+						<li><a href="#">공지사항 입니다.</a></li>
+						<li><a href="#">공지사항 입니다.</a></li>
+						<li><a href="#">공지사항 입니다.</a></li>
+
+					</ul>
+				</div>
+					
+				<div class="rooms">
+					<h2>Rooms</h2>
+					<p>객실안내</p>
+					
+					<ul class="room">
+						<li><a href="#"><img src="images/room1.png" alt="1호실"><span><br><br>Room<br>1</span></a></li>
+						<li><a href="#"><img src="images/room2.png" alt="2호실"><span><br><br>Room<br>2</span></a></li>
+						<li><a href="#"><img src="images/room3.png" alt="3호실"><span><br><br>Room<br>3</span></a></li>
+						<li><a href="#"><img src="images/room4.png" alt="4호실"><span><br><br>Room<br>4</span></a></li>
+					</ul>
+				</div>
+			</section><!--content1-->
+			
+			<section id="content2">
+				<h3><img src="images/forest.png" alt="숲속을 걸어요"></h3>
+				<p class="leftArrow"><img src="images/leftArrow.png" alt="왼쪽 화살표" onmouseover="this.src='images/leftArrow_after.png'" onmouseout="this.src='images/leftArrow.png'"></p>
+				
+				<ul class="place">
+					<li><a href="#"><img src="images/place1.png" alt=""></a></li>
+					<li><a href="#"><img src="images/place2.png" alt=""></a></li>
+					<li><a href="#"><img src="images/place3.png" alt=""></a></li>
+					<li class="last"><a href="#"><img src="images/place4.png" alt=""></a></li>
+				</ul>
+				
+				<p class="rightArrow"><img src="images/rightArrow.png" alt="오른쪽 화살표" onmouseover="this.src='images/rightArrow_after.png'" onmouseout="this.src='images/rightArrow.png'"></p>
+			</section><!--content2-->
+			
+			<footer>
+				<address>
+					주소 : 00도 00시 000로 00 | 대표 : 000<br>사업자등록번호 : 000-00-00000<br>
+					전화번호 : 000-000-0000 / 010-0000-0000
+				</address>
+			</footer>
+		</div><!--wrapper-->
+	</body>
+</html>
