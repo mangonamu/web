@@ -48,7 +48,7 @@ header{position:relative; width:1200px; height:780px;}
 	.popup a{position:absolute; right:10px; top:10px; z-index:2001; border:5px solid #fff; color:#fff; font-weight:bold; font-size:20px; width:25px; height:25px; line-height:25px; text-align:center;}
 
 /*sideBar*/
-#sideBar{position:fixed; width:70px; height:150px; top:200px; right:0; background:#72a666; }
+#sideBar{position:fixed; width:70px; height:150px; top:200px; right:0; background:#72a666; z-index:100;}
 	#sideBar p{padding-top:10px; text-align:center;}
 	#sideBar p:nth-child(2){padding-top:5px;}
 		#sideBar p img{padding-bottom:5px;}
